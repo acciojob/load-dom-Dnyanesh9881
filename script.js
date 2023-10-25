@@ -1,3 +1,5 @@
 //your JS code here. If required
-let x=document.createElement("p");
-p.innerText="india";
+let body=document.querySelector("body");
+ body.addEventListener("load" ,()=>{
+	 Console.log("DOM load Success");
+ })
